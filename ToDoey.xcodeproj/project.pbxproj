@@ -12,6 +12,8 @@
 		3C4B6A422208DB5100C450F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4B6A402208DB5100C450F4 /* Main.storyboard */; };
 		3C4B6A442208DB5200C450F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4B6A432208DB5200C450F4 /* Assets.xcassets */; };
 		3C4B6A472208DB5200C450F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4B6A452208DB5200C450F4 /* LaunchScreen.storyboard */; };
+		3C4B6A502208DCE600C450F4 /* TodoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B6A4E2208DCE600C450F4 /* TodoListCell.swift */; };
+		3C4B6A512208DCE600C450F4 /* TodoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4B6A4F2208DCE600C450F4 /* TodoListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3C4B6A432208DB5200C450F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4B6A462208DB5200C450F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C4B6A482208DB5200C450F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4B6A4E2208DCE600C450F4 /* TodoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCell.swift; sourceTree = "<group>"; };
+		3C4B6A4F2208DCE600C450F4 /* TodoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3C4B6A432208DB5200C450F4 /* Assets.xcassets */,
 				3C4B6A452208DB5200C450F4 /* LaunchScreen.storyboard */,
 				3C4B6A482208DB5200C450F4 /* Info.plist */,
+				3C4B6A4E2208DCE600C450F4 /* TodoListCell.swift */,
+				3C4B6A4F2208DCE600C450F4 /* TodoListCell.xib */,
 			);
 			path = ToDoey;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				3C4B6A472208DB5200C450F4 /* LaunchScreen.storyboard in Resources */,
 				3C4B6A442208DB5200C450F4 /* Assets.xcassets in Resources */,
 				3C4B6A422208DB5100C450F4 /* Main.storyboard in Resources */,
+				3C4B6A512208DCE600C450F4 /* TodoListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C4B6A3F2208DB5100C450F4 /* ViewController.swift in Sources */,
+				3C4B6A502208DCE600C450F4 /* TodoListCell.swift in Sources */,
 				3C4B6A3D2208DB5100C450F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.georgeonwundinjo.ToDoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgeonwundinjo.ToDoey1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.georgeonwundinjo.ToDoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgeonwundinjo.ToDoey1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
